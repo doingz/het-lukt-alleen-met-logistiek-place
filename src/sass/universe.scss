@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+*:focus,
+input:focus {
+  outline: none;
+}
+
+input,
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+// colors:
+$framboos: #ce0058;
+$stroomafwaarts: #071d49;
+$hemelsblauw: #00a9e0;
+$pompoen: #ff7f32;
+
+// fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow+Semi+Condensed&display=swap');
+
+body {
+  //font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 400;
+  padding: 1vw 4vw;
+}
+
+h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 10vw;
+  color: #fff;
+  line-height: 1;
+}
+
+p {
+  font-size: 4vw;
+  color: #fff;
+}
