@@ -9,11 +9,9 @@ const IndexPage = () => {
         <video className="video" playsInline loop autoPlay muted>
           <source src={backgroundVideo} type="video/mp4" />
         </video>
+        <div className="logo"></div>
       </div>
-      <main>
-        <h1>Het lukt alleen met logistiek</h1>
-        <p>De website is onderweg, we gaan 28 augustus live!</p>
-      </main>
+      <h1>De website is onderweg, we gaan 28 augustus live!</h1>
     </div>
   );
 };
