@@ -1,6 +1,5 @@
 import * as React from "react";
 import "../sass/index.scss";
-import backgroundVideo from "../videos/hlaml-video.mp4";
 
 const IndexPage = () => {
   return (
