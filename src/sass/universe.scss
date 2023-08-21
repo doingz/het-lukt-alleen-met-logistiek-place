@@ -30,7 +30,7 @@ body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: 400;
   padding: 1vw 4vw;
-  background-color: $hemelsblauw;
+  background-color: $pompoen;
 }
 
 h1 {
@@ -43,7 +43,18 @@ h1 {
   }
 }
 
-p {
-  font-size: 4vw;
-  color: #fff;
+.logo {
+  position: fixed;
+  left: 4vw;
+  bottom: 4vw;
+  width: 32vw;
+  height: calc(100 / 320 * 32vw);
+  background-image: url(../images/logo.svg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  @media screen and (max-width: 768px) {
+    width: 50vw;
+    height: calc(100 / 320 * 50vw);
+  }
 }
